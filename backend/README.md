@@ -14,6 +14,6 @@ Install Dependencies
 
 `yarn install or npm install`
 
-Start the local development Server @ http://localhost:4200/
+Start the local development Server @ http://localhost:4000/
 
 `yarn start or npm run start`

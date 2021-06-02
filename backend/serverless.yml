@@ -1,8 +1,15 @@
 service: serverless-interview-test
+runtime: nodejs12.x
 provider:
   name: aws
   region: us-east-1
 functions:
+  hello:
+    handler: handler.hello
+    events:
+      - http:
+          path: /api/hello
+          method: get
   
 plugins:
   - serverless-offline
