@@ -1,0 +1,12 @@
+service: serverless-interview-test
+provider:
+  name: aws
+  region: us-east-1
+functions:
+  
+plugins:
+  - serverless-offline
+
+custom:
+  serverless-offline:
+    httpPort: 4000
